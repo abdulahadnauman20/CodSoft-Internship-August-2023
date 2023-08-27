@@ -1,0 +1,266 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif, Geneva, Tahoma, sans-serif;
+}
+html, body 
+{
+	font-size: 16px;
+	font-weight: 1000;
+	background:black;
+	color:red;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+.Upwidth 
+{
+	width: 33%;
+	float: left;
+}
+.Downwidth{
+	width: 66%;
+	float: left;
+}
+
+.Main {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+.Logo {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.spancolumn {
+	color:yellow;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+	color:  brown;
+}
+.width{
+	float: left;
+	width: 50%;
+}
+.bannerpart {
+	width: 100%;
+	float: left;
+	margin-top: 12em;
+}
+.bannerpart h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.bannerpart h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.bannerpart a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius:100%;
+	text-align: center;
+	margin-left: 30px;
+	height: 80px;
+	width: 80px;
+	line-height: 40px;
+}
+.Main img {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+}
+
+.mainsection {
+	width: 100%;
+	float: left;
+	padding: 110px 0px 110px 0px;
+}
+.width100{
+	width: 100%;
+	float: left;
+}
+.mt {
+	margin-top: 20px;
+}
+.heading{
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #ffbf35;
+}
+.aboutimage {
+	width: 100%;
+	padding: 0px 50px;
+	margin-top: 20px;
+}
+.aboutme {
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+.aboutme p {
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 27px;
+}
+table {
+	width: 100%;
+}
+table th,
+table td {
+	font-size: 16px;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background:red;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background:green;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color:green;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 200px;
+	;
+	height: 100px;
+	;
+	border-radius: 50%;
+
+	place-items: center;
+	display: grid;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#ffbf35 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+
+}
+/*****EXPERIENCE SECTION*****/
+.mainsection {
+	background-color:darkgray;
+}
+.educationexperience{
+	padding: 10px 0px;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	padding-left: 10px;
+}
+.experience-list {
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+	background: green;
+	margin-bottom: 20px;
+}
+.workexperience
+{
+		width: 100%;
+		float: left;
+		padding: 30px 10px;
+		background: green;
+		margin-bottom: 20px;
+}
+.experiencecontent {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.experiencecontent h2 {
+
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.experiencecontent h3 {
+	color:orange;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.experiencecontent p {
+	font-size: 15px;
+}
+footer
+{
+text-align: center;
+}
+
+.footer {
+	background-color:black;
+	padding: 10px 1px 1px 1px;
+	width: 100%;
+	float: left;
+}
+.footersection {
+	color:gray;
+}
+.footersection a {
+	color:gray;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	
+}
+.footersocial a i {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #cdcdcd;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.footer img{
+	width:50px ;
+	height: 50px;
+}
+.footer h1
+{
+	color: yellow;
+
+}
